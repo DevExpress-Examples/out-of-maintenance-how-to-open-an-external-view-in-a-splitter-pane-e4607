@@ -1,0 +1,38 @@
+@{
+    ViewBag.Title = "Home Page";
+}
+
+
+@Html.DevExpress().Splitter(settings => {
+    settings.Name = "Splitter";
+    settings.FullscreenMode = true;
+    settings.Height = System.Web.UI.WebControls.Unit.Percentage(100);
+    settings.Width = System.Web.UI.WebControls.Unit.Percentage(100);
+    settings.AllowResize = true;
+    settings.Panes.Add(pane => {
+        pane.AutoWidth = true;
+        pane.SetContent(() => {
+            Html.DevExpress().TreeView(treeSettings => {
+                treeSettings.Name = "TreeView";
+                treeSettings.AllowSelectNode = false;
+                treeSettings.Target = "NavigationIframe";
+
+                treeSettings.Nodes.Add(node => {
+                    node.Text = "First";
+                    node.NavigateUrl = Url.Action("ShowFirst");                    
+                });
+                treeSettings.Nodes.Add(node => {
+                    node.Text = "Second";
+                    node.NavigateUrl = Url.Action("ShowSecond");
+                });
+            }).Render();
+        });
+    });
+    settings.Panes.Add(pane => {
+        pane.ContentUrl = "about:blank";
+        pane.ContentUrlIFrameName = "NavigationIframe";
+    });
+}).GetHtml()
+
+
+
