@@ -1,3 +1,11 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [HomeController.cs](./CS/NavKB2/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/NavKB2/Controllers/HomeController.vb))
+* [Index.cshtml](./CS/NavKB2/Views/Home/Index.cshtml)
+* [SampleView1.cshtml](./CS/NavKB2/Views/Home/SampleView1.cshtml)
+* [SampleView2.cshtml](./CS/NavKB2/Views/Home/SampleView2.cshtml)
+<!-- default file list end -->
 # How to open an external View in a Splitter Pane
 
 
