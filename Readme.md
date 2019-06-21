@@ -7,6 +7,9 @@
 * [SampleView2.cshtml](./CS/NavKB2/Views/Home/SampleView2.cshtml)
 <!-- default file list end -->
 # How to open an external View in a Splitter Pane
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e4607)**
+<!-- run online end -->
 
 
 <p>This example is an illustration of the <a href="https://www.devexpress.com/Support/Center/p/KA18732">KA18732: How to open external Page / View in a Splitter Pane</a> KB Article. Refer to the Article for an explanation.<br />
