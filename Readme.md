@@ -8,7 +8,7 @@
 <!-- default file list end -->
 # How to open an external View in a Splitter Pane
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e4607)**
+**[[Run Online]](https://codecentral.devexpress.com/e4607/)**
 <!-- run online end -->
 
 
